@@ -1,0 +1,36 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 20001,
+    "appName": "LionTracker",
+    "appType": "app",
+    "version": { "code": 4, "name": "1.3.0" },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "Cryptocurrency market tracker for Amazfit T-Rex 2"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "debug": false,
+  "targets": {
+    "common": {
+      "module": {
+        "page": { "pages": ["page/index"] },
+        "app-side": { "path": "app-side/index" }
+      },
+      "platforms": [
+        { "name": "t-rex2", "deviceSource": 418 },
+        { "name": "t-rex2-w", "deviceSource": 419 }
+      ],
+      "designWidth": 454
+    }
+  },
+  "i18n": { "en-US": { "appName": "LionTracker" } },
+  "defaultLanguage": "en-US"
+}

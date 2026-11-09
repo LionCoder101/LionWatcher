@@ -1,0 +1,23 @@
+{
+  "name": "crypto-tracker",
+  "version": "1.0.0",
+  "description": "LionTracker for Zepp OS and GTR 4",
+  "main": "app.js",
+  "scripts": {
+    "dev": "zeus dev",
+    "build": "zeus build",
+    "preview": "zeus preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@zeppos/device-types": "^1.0.0",
+    "@zeppos/zeus-cli": "^1.9.3"
+  },
+  "dependencies": {
+    "@zeppos/zml": "^0.0.43"
+  },
+  "_moduleAliases": {
+    "zeppos-app-utils": "node_modules/@zeppos/zeus-cli/private-modules/zeppos-app-utils"
+  }
+}

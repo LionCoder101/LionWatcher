@@ -1,0 +1,11 @@
+{
+  "name": "liontracker-trex2",
+  "version": "1.3.0",
+  "private": true,
+  "description": "LionTracker for Amazfit T-Rex 2",
+  "scripts": {
+    "dev": "node ../crypto-tracker/node_modules/@zeppos/zeus-cli/bin/main.js dev",
+    "build": "node ../crypto-tracker/node_modules/@zeppos/zeus-cli/bin/main.js build",
+    "preview": "node ../crypto-tracker/node_modules/@zeppos/zeus-cli/bin/main.js preview"
+  }
+}
